@@ -1,0 +1,31 @@
+{
+    "name": "atomicbomber/subtable-helper",
+    "description": "Wraps Fluent QueryBuilder objects's SQL query inside a subtable.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonius Yonathan",
+            "email": "atomicbomber.email@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "JamesPatrickKeegan\\SubtableHelper\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JamesPatrickKeegan\\SubtableHelper\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.8@dev",
+        "psy/psysh": "dev-master",
+        "codedungeon/phpunit-result-printer": "dev-master"
+    },
+    "require": {
+        "illuminate/database": "^5.7"
+    }
+}
