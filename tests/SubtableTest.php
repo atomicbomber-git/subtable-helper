@@ -12,8 +12,6 @@ class SubtableTest extends BaseCase {
         $items = Subtable::from(Item::query())
             ->get();
 
-        echo "";
-
         $this->assertCount(100, $items);
     }
 }
